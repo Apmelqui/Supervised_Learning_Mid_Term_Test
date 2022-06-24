@@ -235,7 +235,7 @@ param_grid = [
 
 #Apply GridSearchCV on the training data. Set the estimator as clf_svm_firstname, and use accuracy 
 #as a scoring method, also set refit to 'True' and verbose  to 3.
-grid_search_adriano = GridSearchCV(estimator=clf_svm_adriano, 
+grid_search_adriano = GridSearchCV(estimator=pipe, 
                                    param_grid=param_grid, 
                                    scoring='accuracy', 
                                    refit=True, 
