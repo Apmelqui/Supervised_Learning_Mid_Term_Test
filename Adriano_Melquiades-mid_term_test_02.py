@@ -182,12 +182,7 @@ num_pipeline_adriano = Pipeline([
 #random_state=last two digits of your student id.
 clf_svm_adriano = SVC(gamma='auto', random_state=57)
 #clf_svm_adriano = SVC(random_state=57)
-############################### should i put gamma='auto' above?????? #############################
-############################### should i put gamma='auto' above?????? #############################
-############################### should i put gamma='auto' above?????? #############################
-############################### should i put gamma='auto' above?????? #############################
-############################### should i put gamma='auto' above?????? #############################
-############################### should i put gamma='auto' above?????? #############################
+
 
 #Prepare another pipeline for the training process call it "pipe".
 #This pipeline should contain two steps, the first step is the num_pipeline_firstname 
